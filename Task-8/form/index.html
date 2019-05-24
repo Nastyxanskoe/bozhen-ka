@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+	<meta charset="UTF-8">
+	<meta name="author" content="Rostyslav Marenych">
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Hometask-7</title>
+	<link rel="stylesheet" href="styles/main.css">
+
+</head>
+<body>
+	<h1>Заповніть будь ласка форму зворотнього зв'язку і ми зв'яжемося з вами</h1>
+	<header>
+	<form action="send.php" method="post" autocomplete="off">
+		
+		<fieldset>
+		<legend>Представтесь будь ласка</legend>
+			<label for="name"> Ім'я : 
+				<input type="text" id="name" name="firstName" placeholder="   Ваше ім'я" required> 
+			</label>
+			<label for="surname"> Прізвище<em style="color:red;">*</em> : <input type="text" id="surname" name="surname" placeholder="   Ваше прізвище" required> </label>
+			<label for="email"> Email : 
+				<input type="text" id="email" name="email" placeholder="   Ваш email" required> 
+			</label>
+		</fieldset>
+
+		<input type="submit" name="submit" value="Відправити" class="button-submit">
+	</form>
+	</header>
+	
+</body>
+</html>
